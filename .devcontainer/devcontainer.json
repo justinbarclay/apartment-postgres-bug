@@ -1,0 +1,19 @@
+{
+	"name": "Apartment Bug",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/apartment-bug",
+	"features": {
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Shopify.ruby-lsp",
+				"castwide.solargraph"
+			]
+		}
+	},
+	"postCreateCommand": "bundle install && bin/rails db:prepare",
+    "remoteUser": "vscode"
+}
