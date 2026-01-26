@@ -49,5 +49,5 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
-  gem "solargraph", "~> 0.58.1", require: false
+  gem "solargraph", "~> 0.58.2", require: false
 end
